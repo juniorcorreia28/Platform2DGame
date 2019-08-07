@@ -1,0 +1,2020 @@
+fileFormatVersion: 2
+guid: e97eff5acabd7e74696a259a153c50e8
+timeCreated: 1472651042
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TileSheet(64x64)_0
+    21300002: TileSheet(64x64)_1
+    21300004: TileSheet(64x64)_2
+    21300006: TileSheet(64x64)_3
+    21300008: TileSheet(64x64)_4
+    21300010: TileSheet(64x64)_5
+    21300012: TileSheet(64x64)_6
+    21300014: TileSheet(64x64)_7
+    21300016: TileSheet(64x64)_8
+    21300018: TileSheet(64x64)_9
+    21300020: TileSheet(64x64)_10
+    21300022: TileSheet(64x64)_11
+    21300024: TileSheet(64x64)_12
+    21300026: TileSheet(64x64)_13
+    21300028: TileSheet(64x64)_14
+    21300030: TileSheet(64x64)_15
+    21300032: TileSheet(64x64)_16
+    21300034: TileSheet(64x64)_17
+    21300036: TileSheet(64x64)_18
+    21300038: TileSheet(64x64)_19
+    21300040: TileSheet(64x64)_20
+    21300042: TileSheet(64x64)_21
+    21300044: TileSheet(64x64)_22
+    21300046: TileSheet(64x64)_23
+    21300048: TileSheet(64x64)_24
+    21300050: TileSheet(64x64)_25
+    21300052: TileSheet(64x64)_26
+    21300054: TileSheet(64x64)_27
+    21300056: TileSheet(64x64)_28
+    21300058: TileSheet(64x64)_29
+    21300060: TileSheet(64x64)_30
+    21300062: TileSheet(64x64)_31
+    21300064: TileSheet(64x64)_32
+    21300066: TileSheet(64x64)_33
+    21300068: TileSheet(64x64)_34
+    21300070: TileSheet(64x64)_35
+    21300072: TileSheet(64x64)_36
+    21300074: TileSheet(64x64)_37
+    21300076: TileSheet(64x64)_38
+    21300078: TileSheet(64x64)_39
+    21300080: TileSheet(64x64)_40
+    21300082: TileSheet(64x64)_41
+    21300084: TileSheet(64x64)_42
+    21300086: TileSheet(64x64)_43
+    21300088: TileSheet(64x64)_44
+    21300090: TileSheet(64x64)_45
+    21300092: TileSheet(64x64)_46
+    21300094: TileSheet(64x64)_47
+    21300096: TileSheet(64x64)_48
+    21300098: TileSheet(64x64)_49
+    21300100: TileSheet(64x64)_50
+    21300102: TileSheet(64x64)_51
+    21300104: TileSheet(64x64)_52
+    21300106: TileSheet(64x64)_53
+    21300108: TileSheet(64x64)_54
+    21300110: TileSheet(64x64)_55
+    21300112: TileSheet(64x64)_56
+    21300114: TileSheet(64x64)_57
+    21300116: TileSheet(64x64)_58
+    21300118: TileSheet(64x64)_59
+    21300120: TileSheet(64x64)_60
+    21300122: TileSheet(64x64)_61
+    21300124: TileSheet(64x64)_62
+    21300126: TileSheet(64x64)_63
+    21300128: TileSheet(64x64)_64
+    21300130: TileSheet(64x64)_65
+    21300132: TileSheet(64x64)_66
+    21300134: TileSheet(64x64)_67
+    21300136: TileSheet(64x64)_68
+    21300138: TileSheet(64x64)_69
+    21300140: TileSheet(64x64)_70
+    21300142: TileSheet(64x64)_71
+    21300144: TileSheet(64x64)_72
+    21300146: TileSheet(64x64)_73
+    21300148: TileSheet(64x64)_74
+    21300150: TileSheet(64x64)_75
+    21300152: TileSheet(64x64)_76
+    21300154: TileSheet(64x64)_77
+    21300156: TileSheet(64x64)_78
+    21300158: TileSheet(64x64)_79
+    21300160: TileSheet(64x64)_80
+    21300162: TileSheet(64x64)_81
+    21300164: TileSheet(64x64)_82
+    21300166: TileSheet(64x64)_83
+    21300168: TileSheet(64x64)_84
+    21300170: TileSheet(64x64)_85
+    21300172: TileSheet(64x64)_86
+    21300174: TileSheet(64x64)_87
+    21300176: TileSheet(64x64)_88
+    21300178: TileSheet(64x64)_89
+    21300180: TileSheet(64x64)_90
+    21300182: TileSheet(64x64)_91
+    21300184: TileSheet(64x64)_92
+    21300186: TileSheet(64x64)_93
+    21300188: TileSheet(64x64)_94
+    21300190: TileSheet(64x64)_95
+    21300192: TileSheet(64x64)_96
+    21300194: TileSheet(64x64)_97
+    21300196: TileSheet(64x64)_98
+    21300198: TileSheet(64x64)_99
+    21300200: TileSheet(64x64)_100
+    21300202: TileSheet(64x64)_101
+    21300204: TileSheet(64x64)_102
+    21300206: TileSheet(64x64)_103
+    21300208: TileSheet(64x64)_104
+    21300210: TileSheet(64x64)_105
+    21300212: TileSheet(64x64)_106
+    21300214: TileSheet(64x64)_107
+    21300216: TileSheet(64x64)_108
+    21300218: TileSheet(64x64)_109
+    21300220: TileSheet(64x64)_110
+    21300222: TileSheet(64x64)_111
+    21300224: TileSheet(64x64)_112
+    21300226: TileSheet(64x64)_113
+    21300228: TileSheet(64x64)_114
+    21300230: TileSheet(64x64)_115
+    21300232: TileSheet(64x64)_116
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TileSheet(64x64)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 5}
+        - {x: 9, y: -5}
+        - {x: 8, y: -20}
+        - {x: 8, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 10}
+        - {x: 30, y: 10}
+    - name: TileSheet(64x64)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 32}
+        - {x: -32, y: 18}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: -23, y: -32}
+        - {x: 32, y: -12}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 2}
+        - {x: -32, y: 2}
+        - {x: -32, y: -32}
+        - {x: 26, y: -32}
+        - {x: 26, y: -2}
+    - name: TileSheet(64x64)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 2}
+        - {x: -32, y: 2}
+    - name: TileSheet(64x64)_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: -22}
+        - {x: 30, y: -20}
+        - {x: 26, y: -18}
+        - {x: 32, y: -18}
+        - {x: 32, y: -12}
+        - {x: 28, y: -10}
+        - {x: 26, y: -10}
+        - {x: 24, y: -8}
+        - {x: 22, y: -8}
+        - {x: 26, y: -8}
+        - {x: 28, y: -10}
+        - {x: 32, y: -10}
+        - {x: 32, y: -4}
+        - {x: 20, y: 2}
+        - {x: -32, y: 2}
+        - {x: -32, y: -32}
+        - {x: 30, y: -32}
+        - {x: 30, y: -30}
+        - {x: 28, y: -28}
+        - {x: 24, y: -26}
+    - name: TileSheet(64x64)_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 8}
+        - {x: -32, y: 2}
+        - {x: -28, y: 0}
+        - {x: -26, y: 0}
+        - {x: -24, y: -2}
+        - {x: -22, y: -2}
+        - {x: -26, y: -2}
+        - {x: -28, y: 0}
+        - {x: -32, y: 0}
+        - {x: -32, y: -32}
+        - {x: 27, y: -32}
+        - {x: 32, y: -31}
+        - {x: 32, y: 2}
+        - {x: -26, y: 8}
+    - name: TileSheet(64x64)_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 20}
+        - {x: -26, y: -2}
+        - {x: -22, y: -32}
+        - {x: 22, y: -32}
+        - {x: 26, y: 12}
+        - {x: 26, y: 20}
+    - name: TileSheet(64x64)_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 26}
+        - {x: -32, y: 22}
+        - {x: -32, y: -22}
+        - {x: 12, y: -26}
+        - {x: 20, y: -26}
+        - {x: 20, y: 26}
+    - name: TileSheet(64x64)_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 32}
+        - {x: -26, y: 15}
+        - {x: -20, y: -14}
+        - {x: -9, y: -21}
+        - {x: 26, y: -26}
+        - {x: 32, y: -26}
+        - {x: 32, y: 26}
+        - {x: 26, y: 32}
+    - name: TileSheet(64x64)_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 32}
+        - {x: -32, y: 26}
+        - {x: -32, y: -26}
+        - {x: 32, y: -26}
+        - {x: 32, y: 26}
+        - {x: 26, y: 32}
+    - name: TileSheet(64x64)_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 28}
+        - {x: 3, y: 32}
+    - name: TileSheet(64x64)_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 26}
+        - {x: -32, y: 26}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 20}
+    - name: TileSheet(64x64)_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 18}
+        - {x: -32, y: 18}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 12}
+    - name: TileSheet(64x64)_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 10}
+        - {x: -32, y: 10}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 4}
+    - name: TileSheet(64x64)_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 2}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -4}
+        - {x: -15, y: 2}
+    - name: TileSheet(64x64)_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 2}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -4}
+        - {x: -15, y: 2}
+    - name: TileSheet(64x64)_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -7, y: 11}
+        - {x: -10, y: 4}
+        - {x: -10, y: -20}
+        - {x: -4, y: -32}
+        - {x: 5, y: -32}
+        - {x: 16, y: -27}
+        - {x: 16, y: 26}
+    - name: TileSheet(64x64)_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -32}
+        - {x: 4, y: 32}
+        - {x: -4, y: 32}
+        - {x: -4, y: -32}
+    - name: TileSheet(64x64)_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -32}
+        - {x: 10, y: -32}
+        - {x: 10, y: 4}
+        - {x: 7, y: 32}
+        - {x: -7, y: 32}
+        - {x: -10, y: -6}
+    - name: TileSheet(64x64)_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 30}
+        - {x: -14, y: 30}
+        - {x: -20, y: 28}
+        - {x: -20, y: 8}
+        - {x: -14, y: -20}
+        - {x: -8, y: -32}
+        - {x: 8, y: -32}
+        - {x: 14, y: -26}
+        - {x: 14, y: 6}
+        - {x: 12, y: 17}
+    - name: TileSheet(64x64)_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -32}
+        - {x: 8, y: 32}
+        - {x: -8, y: 32}
+        - {x: -8, y: -32}
+    - name: TileSheet(64x64)_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 32}
+        - {x: -14, y: -2}
+        - {x: -14, y: -32}
+        - {x: 14, y: -32}
+        - {x: 14, y: 5}
+        - {x: 11, y: 32}
+    - name: TileSheet(64x64)_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_42
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+        - {x: 9, y: 32}
+        - {x: -32, y: 25}
+    - name: TileSheet(64x64)_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_53
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+        - {x: 9, y: 32}
+        - {x: -32, y: 25}
+    - name: TileSheet(64x64)_63
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_64
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 32}
+        - {x: -32, y: 19}
+        - {x: -32, y: -21}
+        - {x: -27, y: -32}
+        - {x: 24, y: -32}
+        - {x: 32, y: -29}
+        - {x: 32, y: 28}
+        - {x: 26, y: 32}
+    - name: TileSheet(64x64)_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -32}
+        - {x: 14, y: 32}
+        - {x: -14, y: 32}
+        - {x: -14, y: -32}
+    - name: TileSheet(64x64)_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -8}
+        - {x: -32, y: -26}
+        - {x: -30, y: -32}
+        - {x: 24, y: -32}
+        - {x: 32, y: -28}
+        - {x: 32, y: 12}
+        - {x: 12, y: 32}
+        - {x: -12, y: 32}
+        - {x: -20, y: 2}
+    - name: TileSheet(64x64)_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -4}
+        - {x: -32, y: -10}
+        - {x: -21, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -10}
+        - {x: -24, y: -4}
+    - name: TileSheet(64x64)_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -10}
+        - {x: -32, y: -10}
+    - name: TileSheet(64x64)_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 32}
+        - {x: -32, y: 30}
+        - {x: -32, y: -3}
+        - {x: -24, y: -32}
+        - {x: 15, y: -32}
+        - {x: 32, y: 9}
+        - {x: 32, y: 28}
+        - {x: 26, y: 32}
+    - name: TileSheet(64x64)_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 12}
+        - {x: -32, y: 3}
+        - {x: -24, y: 0}
+        - {x: 32, y: 0}
+        - {x: 32, y: 6}
+        - {x: -25, y: 12}
+    - name: TileSheet(64x64)_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 0}
+        - {x: 17, y: 0}
+        - {x: 32, y: 6}
+        - {x: 32, y: 14}
+        - {x: 21, y: 14}
+        - {x: -32, y: 7}
+    - name: TileSheet(64x64)_73
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: -6}
+        - {x: -12, y: -32}
+        - {x: 12, y: -32}
+        - {x: 12, y: -6}
+        - {x: 8, y: -2}
+        - {x: -8, y: -2}
+    - name: TileSheet(64x64)_74
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -14}
+        - {x: 8, y: -16}
+        - {x: 8, y: -28}
+        - {x: 11, y: -32}
+        - {x: 22, y: -32}
+        - {x: 26, y: -30}
+        - {x: 26, y: -16}
+        - {x: 21, y: -14}
+      - - {x: -26, y: 30}
+        - {x: -30, y: 27}
+        - {x: -30, y: 20}
+        - {x: -27, y: 16}
+        - {x: -20, y: 16}
+        - {x: -16, y: 19}
+        - {x: -16, y: 26}
+        - {x: -19, y: 30}
+    - name: TileSheet(64x64)_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -14}
+        - {x: 8, y: -16}
+        - {x: 8, y: -28}
+        - {x: 11, y: -32}
+        - {x: 22, y: -32}
+        - {x: 26, y: -30}
+        - {x: 26, y: -16}
+        - {x: 21, y: -14}
+      - - {x: -26, y: 30}
+        - {x: -30, y: 27}
+        - {x: -30, y: 20}
+        - {x: -27, y: 16}
+        - {x: -20, y: 16}
+        - {x: -16, y: 19}
+        - {x: -16, y: 26}
+        - {x: -19, y: 30}
+    - name: TileSheet(64x64)_76
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -16}
+        - {x: 10, y: -19}
+        - {x: 10, y: -26}
+        - {x: 13, y: -30}
+        - {x: 20, y: -30}
+        - {x: 24, y: -27}
+        - {x: 24, y: -20}
+        - {x: 21, y: -16}
+      - - {x: -26, y: 30}
+        - {x: -30, y: 27}
+        - {x: -30, y: 20}
+        - {x: -27, y: 16}
+        - {x: -20, y: 16}
+        - {x: -16, y: 19}
+        - {x: -16, y: 26}
+        - {x: -19, y: 30}
+    - name: TileSheet(64x64)_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -30}
+        - {x: 28, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -28}
+        - {x: 30, y: -28}
+      - - {x: -22, y: 24}
+        - {x: -17, y: 24}
+        - {x: -16, y: 25}
+        - {x: -16, y: 28}
+        - {x: -17, y: 30}
+        - {x: -20, y: 30}
+        - {x: -22, y: 29}
+    - name: TileSheet(64x64)_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_81
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 2}
+        - {x: -2, y: 2}
+        - {x: -16, y: -7}
+        - {x: -20, y: -24}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -19}
+        - {x: 17, y: -12}
+    - name: TileSheet(64x64)_85
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 12}
+        - {x: -20, y: 0}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -3}
+        - {x: 7, y: 12}
+    - name: TileSheet(64x64)_86
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -12}
+        - {x: -20, y: -22}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -28}
+        - {x: 5, y: -12}
+    - name: TileSheet(64x64)_87
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 2}
+        - {x: -2, y: 2}
+        - {x: -16, y: -7}
+        - {x: -20, y: -24}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -19}
+        - {x: 17, y: -12}
+    - name: TileSheet(64x64)_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 12}
+        - {x: -20, y: 0}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -3}
+        - {x: 7, y: 12}
+    - name: TileSheet(64x64)_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: -12}
+        - {x: -20, y: -22}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 18, y: -28}
+        - {x: 5, y: -12}
+    - name: TileSheet(64x64)_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_97
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_98
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 32}
+        - {x: -14, y: 13}
+        - {x: -14, y: -12}
+        - {x: -10, y: -14}
+        - {x: 0, y: -14}
+        - {x: 4, y: -11}
+        - {x: 4, y: 32}
+    - name: TileSheet(64x64)_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -12, y: 17}
+        - {x: -12, y: -13}
+        - {x: -9, y: -14}
+        - {x: 5, y: -14}
+        - {x: 6, y: -13}
+        - {x: 6, y: 25}
+        - {x: 5, y: 32}
+    - name: TileSheet(64x64)_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 32}
+        - {x: -10, y: 13}
+        - {x: -10, y: -9}
+        - {x: -5, y: -14}
+        - {x: 4, y: -14}
+        - {x: 8, y: -12}
+        - {x: 8, y: 18}
+        - {x: 5, y: 32}
+    - name: TileSheet(64x64)_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -8, y: 14}
+        - {x: -8, y: -9}
+        - {x: -3, y: -14}
+        - {x: 6, y: -14}
+        - {x: 10, y: -12}
+        - {x: 10, y: 14}
+        - {x: 5, y: 32}
+    - name: TileSheet(64x64)_104
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -6, y: 27}
+        - {x: -6, y: -8}
+        - {x: -3, y: -14}
+        - {x: 8, y: -14}
+        - {x: 12, y: -12}
+        - {x: 12, y: 11}
+        - {x: 6, y: 32}
+    - name: TileSheet(64x64)_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_107
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_108
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_109
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    - name: TileSheet(64x64)_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
