@@ -7,20 +7,17 @@ public class LevelManager : MonoBehaviour {
 
     private PlayerControl player;
 
-	// Use this for initialization
-	void Start () {
+	private void Start () {
         player = FindObjectOfType<PlayerControl>();
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
 	
 	}
 
     public void RespawnPlayer()
     {
-        Debug.Log("Player Respawn");
-        player.transform.position = currentCheckPoint.transform.position;
+#if UNITY_EDITOR
+		Debug.Log("Player Respawn");
+#endif
+
+		player.transform.position = currentCheckPoint.transform.position;
     }
 }

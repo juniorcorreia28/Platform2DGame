@@ -3,8 +3,14 @@ using System.Collections;
 
 public class CameraController : MonoBehaviour {
 
-    public GameObject target; //Classe PlayerControl esta sendo estanciada na variavel player;
-    public Vector2 focusAreaSize;//Sera definido o tamanhado FocusArea, onde fica em volta do Player.
+    /// <summary>
+    /// Classe PlayerControl esta sendo estanciada na variavel player
+    /// </summary>
+    public GameObject target;
+    /// <summary>
+    /// Sera definido o tamanhado FocusArea, onde fica em volta do Player.
+    /// </summary>
+    public Vector2 focusAreaSize;
     public BoxCollider2D boundBox;
 
     private Camera theCamera;
@@ -14,50 +20,75 @@ public class CameraController : MonoBehaviour {
     private Vector3 minBounds;
     private Vector3 maxBounds;
 
-    public bool isFollowing; //Variavel que vai nos dizer se a camera está seguindo o jogador ou não.
-    //public float xOffset; 
-    //public float yOffset;
+    /// <summary>
+    /// Variavel que vai nos dizer se a camera está seguindo o jogador ou não.
+    /// </summary>
+    public bool isFollowing;
 
-    public float verticalOffset; //Variavel que vai configura o quando a camera fica posicionada para cima ou para baixo.
-    public float lookAheadDstX; // variavel que vai configura  a visão agora do horizontal. Podemos deixar ela um pouco para frente ou para trás.
-    public float lookSmoothTimeX; //E aqui vai guardar o tempo. A velocidade que a camera vai mover quando passar a focus area na horizontal.
-    public float verticalSmoothTime; //A mesma coisa que a cima. Vai definir a velocidade em que a camera se move quando passamos a focus area na vertical.
+    /// <summary>
+    /// Variavel que vai configura o quando a camera fica posicionada para cima ou para baixo.
+    /// </summary>
+    public float verticalOffset;
+    /// <summary>
+    /// variavel que vai configura a visão agora do horizontal. 
+    /// Podemos deixar ela um pouco para frente ou para trás.
+    /// </summary>
+    public float lookAheadDstX;
+    /// <summary>
+    /// Vai guardar o tempo. 
+    /// A velocidade que a camera vai mover quando passar a focus area na horizontal.
+    /// </summary>
+    public float lookSmoothTimeX;
+    /// <summary> 
+    /// Vai definir a velocidade em que a camera se move quando passamos a focus area na vertical.
+    /// </summary>
+    public float verticalSmoothTime;
 
-    //As variaveis abaixo, vai guardar as pocições atuais do Player, a pocição da camera nas direções X e Y e velocidade em que elas se movem. (Assim podemos alterar durante o jogo a velocidade e posições)
-    float currentLookAheadX;
-    float targetLookAheadX;
-    float lookAheadDirX;
-    float smoothLookVelocityX;
-    float smoothVelocityY;
+    /*As variaveis abaixo, vai guardar as pocições atuais do Player,
+      a pocição da camera nas direções X e Y e velocidade em que elas se movem.
+      (Assim podemos alterar durante o jogo a velocidade e posições)*/
+    private float currentLookAheadX;
+    private float targetLookAheadX;
+    private float lookAheadDirX;
+    private float smoothLookVelocityX;
+    private float smoothVelocityY;
 
-    bool lookAheadStopped; //Aqui ira ser definido quando a camera para. Depois que ela se mover até configuramo. Ela para.
+    /// <summary>
+    /// Aqui ira ser definido quando a camera ira parar. 
+    /// Depois que ela se mover até onde configuramos, ela para.
+    /// </summary>
+    private bool lookAheadStopped;
 
-    FocusArea focusArea; //Nossa Struct que criamos.
-    PlayerControl player; //Nosso player está sendo estaciada nessa classe, para que podemos acessar.
+    /// <summary>
+    /// Nossa Struct que criamos.
+    /// </summary>
+    private FocusArea focusArea;
+    /// <summary>
+    /// Nosso player está sendo estaciada nessa classe, para que podemos acessar.
+    /// </summary>
+    private PlayerControl player;
 
-	// Use this for initialization
-	void Start () {
+	private void Start () {
 
         isFollowing = true;
 
         //Classes sendo estanciadas.
         focusArea = new FocusArea(target.GetComponent<BoxCollider2D>().bounds, focusAreaSize);
+
         player = target.GetComponent<PlayerControl>();
+
         theCamera = GetComponent<Camera>();
 
-       /* minBounds = boundBox.bounds.min;
-        maxBounds = boundBox.bounds.max;*/
-
-        /*halfHeight = theCamera.orthographicSize;
-        halfWidth = halfHeight * Screen.width / Screen.height;*/
-
         theCamera.transform.Translate(player.transform.position);
-	
 	}
 
-    void LateUpdate() //Esta sendo usado o metodo em LateUpdate, pois todo o nosso metodo da camera vai ser executado no fim do Frame. (Esse metodo é executado sempre depois do UPDATE)
+    /// <summary>
+    /// Esta sendo usado o metodo em LateUpdate, pois todo o nosso metodo da camera vai ser executado no fim do Frame. 
+    /// (Esse metodo é executado sempre depois do UPDATE)
+    /// </summary>
+    private void LateUpdate()
     {
-        focusArea.Update (target.GetComponent<BoxCollider2D>().bounds);
+        focusArea.Update(target.GetComponent<BoxCollider2D>().bounds);
         Vector2 focusPosition = focusArea.centre + Vector2.up * verticalOffset;
 
         minBounds = boundBox.bounds.min;
@@ -68,7 +99,6 @@ public class CameraController : MonoBehaviour {
 
         if (isFollowing)
         {
-
             if (focusArea.velocity.x != 0)
             {
                 lookAheadDirX = Mathf.Sign(focusArea.velocity.x);
@@ -100,35 +130,34 @@ public class CameraController : MonoBehaviour {
         }
     }
 
-    void OnDrawGizmos() //Aqui iremos criar um cubo no centro da tela, onde ira ser a posição da nossa FocusArea. (Esse metodo é executado por frame)
+#if UNITY_EDITOR
+    /// <summary>
+    /// Aqui iremos criar um cubo no centro da tela, onde ira ser a posição da nossa FocusArea. (Esse metodo é executado por frame)
+    /// </summary>
+    private void OnDrawGizmos()
     {
         Gizmos.color = new Color(1, 0, 0, .5f); //Definido com cor Vermelha.
         Gizmos.DrawCube(focusArea.centre, focusAreaSize); //Recebe a posição da nossa FocusArea.
     }
-	
-	// Update is called once per frame
-	void Update () {
+#endif
 
-
-
-        // transform.position = new Vector3(clampedX, clampedY, transform.position.z);
-        //Se for verdadeiro, a camera recebe as mesmas posições do jogador, assim fazendo a camera seguilo.
-        /* if (isFollowing)
-         {
-             transform.position = new Vector3(target.transform.position.x + xOffset, target.transform.position.y + yOffset, transform.position.z);
-         }*/
-         
-
-    }
-
-    struct FocusArea //Aqui sera definido o tamanho da Focus area de acordo com o tamanho da camera e posição do player.
+    /// <summary>
+    /// Aqui sera definido o tamanho da Focus area de acordo com o tamanho da camera e posição do player.
+    /// </summary>
+    struct FocusArea
     {
         public Vector2 centre;
         public Vector2 velocity;
         float left, right;
         float top, bottom;
 
-        public FocusArea (Bounds targetBounds, Vector2 size) //Aqui a FocusArea eh definido de acordo com player. Então ela sera configurada para que ele fique no centro.
+        /// <summary>
+        /// Aqui a FocusArea eh definido de acordo com player. 
+        /// Então ela sera configurada para que ele fique no centro.
+        /// </summary>
+        /// <param name="targetBounds">Limites do alvo da camera</param>
+        /// <param name="size">Tamanho do espaço que vai focar no personagem</param>
+        public FocusArea (Bounds targetBounds, Vector2 size)
         {
 
             //Pega a posição do Player e define o tamanho da Focusarea.
@@ -141,7 +170,12 @@ public class CameraController : MonoBehaviour {
             centre = new Vector2((left + right) / 2, (top + bottom) / 2);
         }
 
-        public void Update (Bounds targetBounds) //Metodo que vai atualizar sempre a posição da focus area. Sempre que o player mover, a focusarea vai se mover junto, assim mantendo o focu do Player.
+        /// <summary>
+        /// Metodo que vai atualizar sempre a posição da focus area. 
+        /// Sempre que o player mover, a focusarea vai se mover junto, assim mantendo o focu do Player.
+        /// </summary>
+        /// <param name="targetBounds">Limites da tela atual</param>
+        public void Update (Bounds targetBounds)
         {
             float shiftX = 0;
 
