@@ -7,9 +7,9 @@ public class LevelManager : MonoBehaviour {
 
     private PlayerControl player;
 
-	private void Start () {
+	private void Start () 
+    {
         player = FindObjectOfType<PlayerControl>();
-	
 	}
 
     public void RespawnPlayer()

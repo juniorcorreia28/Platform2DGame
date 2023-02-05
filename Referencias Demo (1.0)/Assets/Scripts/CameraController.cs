@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CameraController : MonoBehaviour {
-
+public class CameraController : MonoBehaviour 
+{
     /// <summary>
     /// Classe PlayerControl esta sendo estanciada na variavel player
     /// </summary>
@@ -67,28 +67,38 @@ public class CameraController : MonoBehaviour {
     /// Nosso player está sendo estaciada nessa classe, para que podemos acessar.
     /// </summary>
     private PlayerControl player;
+    /// <summary>
+    /// Collider do player
+    /// </summary>
+    private BoxCollider2D playerCollider;
 
-	private void Start () {
-
+	private void Start () 
+    {
         isFollowing = true;
 
         //Classes sendo estanciadas.
-        focusArea = new FocusArea(target.GetComponent<BoxCollider2D>().bounds, focusAreaSize);
-
         player = target.GetComponent<PlayerControl>();
+
+        playerCollider = target.GetComponent<BoxCollider2D>();
+
+        focusArea = new FocusArea(playerCollider.bounds, focusAreaSize);
 
         theCamera = GetComponent<Camera>();
 
         theCamera.transform.Translate(player.transform.position);
+
+        Application.targetFrameRate = 60;
 	}
 
+    
     /// <summary>
     /// Esta sendo usado o metodo em LateUpdate, pois todo o nosso metodo da camera vai ser executado no fim do Frame. 
     /// (Esse metodo é executado sempre depois do UPDATE)
     /// </summary>
     private void LateUpdate()
     {
-        focusArea.Update(target.GetComponent<BoxCollider2D>().bounds);
+        focusArea.Update(playerCollider.bounds);
+
         Vector2 focusPosition = focusArea.centre + Vector2.up * verticalOffset;
 
         minBounds = boundBox.bounds.min;
@@ -102,6 +112,7 @@ public class CameraController : MonoBehaviour {
             if (focusArea.velocity.x != 0)
             {
                 lookAheadDirX = Mathf.Sign(focusArea.velocity.x);
+
                 if (Mathf.Sign(player.move) == Mathf.Sign(focusArea.velocity.x) && player.move != 0)
                 {
                     lookAheadStopped = false;
@@ -125,8 +136,8 @@ public class CameraController : MonoBehaviour {
             float clampedX = Mathf.Clamp(focusPosition.x, minBounds.x + halfWidth, maxBounds.x - halfWidth);
             float clampedY = Mathf.Clamp(focusPosition.y, minBounds.y + halfHeight, maxBounds.y - halfHeight);
 
+            PixelPerfectCamera.SnapToPix(transform);
             transform.position = new Vector3(clampedX, clampedY, transform.position.z);
-
         }
     }
 
@@ -157,9 +168,8 @@ public class CameraController : MonoBehaviour {
         /// </summary>
         /// <param name="targetBounds">Limites do alvo da camera</param>
         /// <param name="size">Tamanho do espaço que vai focar no personagem</param>
-        public FocusArea (Bounds targetBounds, Vector2 size)
+        public FocusArea(Bounds targetBounds, Vector2 size)
         {
-
             //Pega a posição do Player e define o tamanho da Focusarea.
             left = targetBounds.center.x - size.x / 2;
             right = targetBounds.center.x + size.x / 2;
@@ -172,10 +182,10 @@ public class CameraController : MonoBehaviour {
 
         /// <summary>
         /// Metodo que vai atualizar sempre a posição da focus area. 
-        /// Sempre que o player mover, a focusarea vai se mover junto, assim mantendo o focu do Player.
+        /// Sempre que o player mover, a focusarea vai se mover junto, assim mantendo o foco do Player.
         /// </summary>
         /// <param name="targetBounds">Limites da tela atual</param>
-        public void Update (Bounds targetBounds)
+        public void Update(Bounds targetBounds)
         {
             float shiftX = 0;
 

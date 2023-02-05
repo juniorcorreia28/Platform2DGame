@@ -24,12 +24,12 @@ public class PixelPerfectCamera : MonoBehaviour {
 			offSet = transform.position - transform.parent.position;
 	}
 	
-	void LateUpdate () {
+	/*void LateUpdate () {
 		if( transform.parent != null )
 			transform.position = transform.parent.position + offSet;
 		//make sure this is called after the camera has moved
 		SnapCam();
-	}
+	}*/
 	
 	public void SnapCam ( ) {
 		Vector3 newPos = transform.position;

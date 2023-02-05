@@ -24,7 +24,6 @@ public class Respawn : MonoBehaviour
 
             //Muda os limites do cenario e a posição da camera.
             theCamera.boundBox = boundScene;
-            //theCamera.transform.position = changeScene.transform.position;
         }
     }
 }
