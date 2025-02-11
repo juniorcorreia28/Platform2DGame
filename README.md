@@ -1,8 +1,7 @@
 
 # Platform2DGame
 
-A simple demonstration of a platform 2D game. All assets were created by me.
-
+This project was entirely developed by me, from the code to the pixel art, using the same color palette as the Nintendo Entertainment System. I created all the sprites using Pixly on Android.
 
 ## Screenshots
 
